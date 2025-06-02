@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+<header class="logo">
+    <center><a href="https://www.jetbrains.com/webstorm/">
+        <img src="/Img/logo.png" alt="WebStorm logo" width="auto"
+             height="auto">
+    </a></center>
+</header>
+<main id="app">
+    <center><h1 class="title">
+        Registrarse
+    </h1></center>
+    <section class="register-form">
+        <center>
+            <div class="form-group">
+                <label for="regUsername">Usuario:</label><br>
+                <input type="text" id="regUsername" name="username" placeholder="Elige un nombre de usuario"><br><br>
+            </div>
+            <div class="form-group">
+                <label for="regPassword">Contraseña:</label><br>
+                <input type="password" id="regPassword" name="password" placeholder="Crea una contraseña"><br><br>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirmar Contraseña:</label><br>
+                <input type="password" id="confirmPassword" name="confirm_password" placeholder="Repite la contraseña"><br><br>
+            </div>
+            <button type="submit" class="register-submit-button">Registrar Cuenta</button>
+            <br><br>
+            <p>¿Ya tienes cuenta? <a href="index.html">Inicia Sesión aquí</a></p>
+        </center>
+    </section>
+</main>
+<footer class="technologies">
+</footer>
+<script type="module" src="/src/register.js"></script> </body>
+</html>

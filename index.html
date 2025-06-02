@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/webstorm-icon-logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Base de datos </title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="logo">
+  <center><a href="https://www.jetbrains.com/webstorm/">
+    <img src="/Img/logo.png" alt="WebStorm logo" width="auto"
+         height="auto">
+  </a></center>
+</header>
+<main id="app">
+  <center><h1 class="title">
+    Iniciar Sesión
+  </h1></center>
+  <section class="login-form">
+    <center>
+      <div class="form-group">
+        <label for="username">Usuario:</label><br>
+        <input type="text" id="username" name="username" placeholder="Ingresa tu usuario"><br><br>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña"><br><br>
+      </div>
+      <button type="submit" class="login-button">Iniciar Sesión</button>
+    </center>
+  </section>
+  <section class="counter">
+    <div class="counter-info">
+      <center><p class="counter-text">O</p></center>
+      <p class="counter-value" id="counter-value"></p>
+    </div>
+    <center>
+      <p style="margin-top: 15px;">¿No tienes cuenta?</p>
+      <a href="register.html" class="register-link">Regístrate aquí</a>
+    </center>
+
+  </section>
+</main>
+<footer class="technologies">
+</footer>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
