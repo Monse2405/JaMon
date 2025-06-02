@@ -1,7 +1,3 @@
-¡Perfecto! Con la información extraída de tus archivos (`package-lock.json`, `.gitignore` y `qodana.yaml`), te presento un `README.md` llamativo, moderno y bien estructurado para tu proyecto **"Visor de Base de Datos"**, usando `Vite`, `Prettier` y análisis estático con `Qodana`.
-
----
-
 ```markdown
 <h1 align="center">📊 Visor de Base de Datos</h1>
 
